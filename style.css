@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 1.5rem;
+  box-shadow: 2px 2px 50px;
+  background-color:#eeecec;
+}
+ .icon-bar{
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+    border-bottom: 2px solid #d9d9d9;
+
+ }
+
+
+.input-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.logo {
+  height: 50px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: -1px 1px 5px;
+}
+
+#input-part {
+  width: 188px;
+  height: 40px;
+  background-color: #d9d9d9;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.input-text {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  width: 300px;
+  height: 40px;
+}
+
+.input-text input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: inherit;
+}
+
+.input-text img {
+  padding: 1.5rem;
+}
+
+.number{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.support{
+    font-size: 0.8rem;
+}
+
+.support-number{
+    margin-left: 20px;
+    text-align: right;
+}
+
+.icons{
+    margin-left:20px;İ
+}
+
+.icons img{
+    padding: 10px;
+}
